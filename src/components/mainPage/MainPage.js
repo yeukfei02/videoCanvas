@@ -21,6 +21,7 @@ const audio = new Audio(backgroundMusic);
 
 function MainPage() {
   const [autoplay, setAutoplay] = useState(false);
+  let [count, setCount] = useState(0);
 
   useEffect(() => {
     if (autoplay) {
@@ -30,9 +31,19 @@ function MainPage() {
     }
   }, [autoplay]);
 
+  useEffect(() => {
+    if (count >= 15) {
+      window.location.reload();
+    }
+  }, [count]);
+
   const handleCanvasVideoClick = () => {
     if (!autoplay) {
       setAutoplay(true);
+      setInterval(() => {
+        count += 1;
+        setCount(count);
+      }, 1000);
     } else {
       setAutoplay(false);
     }
