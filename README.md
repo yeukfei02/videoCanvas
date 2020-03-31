@@ -13,6 +13,9 @@ $ yarn
 // development
 $ yarn run dev
 
+// production
+$ yarn run production
+
 // run test case
 $ yarn run test
 
