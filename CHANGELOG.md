@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.3](https://github.com/yeukfei02/videoCanvas/compare/v1.1.2...v1.1.3) (2021-03-29)
+
+
+### Bug Fixes
+
+* 🐛 fix package.json ([3cb02eb](https://github.com/yeukfei02/videoCanvas/commit/3cb02ebe47d8eb07f178fd71f144aaaa85bd5251))
+
 ### [1.1.2](https://github.com/yeukfei02/videoCanvas/compare/v1.1.1...v1.1.2) (2020-10-18)
 
 ### [1.1.1](https://github.com/yeukfei02/videoCanvas/compare/v1.1.0...v1.1.1) (2020-10-17)
